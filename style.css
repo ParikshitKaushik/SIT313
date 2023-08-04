@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navibar {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#navibar::before {
+    content: "";
+    background-color: rgb(178, 197, 147);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+
+}
+
+#navibar ul {
+    display: flex;
+}
+
+#navibar ul li {
+    list-style: none;
+}
+
+#navibar ul li a {
+    padding: 10px 20px;
+    color: rgb(71, 66, 66);
+    display: block;
+}
+
+.contain img {
+    width: 100%;
+    height: auto;
+}
+
+.contain {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.contain .cover {
+    position: absolute;
+    bottom: 70;
+    top: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: x-small;
+    opacity: 0;
+}
+
+.contain .cover:hover {
+    opacity: 1;
+}
+
+.profile {
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.job {
+    text-align: center;
+    color: rgb(178, 197, 147);
+}
+
+.des1 {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 20%;
+}
+
+.des1 img {
+    height: 150px;
+    margin-right: 20px;
+}
+
+.about {
+    font-size: 20px;
+    color: rgb(4, 4, 4);
+    font-style: sans-serif;
+    padding-right: 20%;
+}
+
+.des2 {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 20%;
+}
+
+.des2 img {
+    height: 150px;
+
+    margin-right: 20px;
+}
+
+.about2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-style: sans-serif;
+    padding-right: 20%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.description {
+    text-align: center;
+    color: rgb(147, 177, 25);
+}
+
+.mypics {
+    float: left;
+    width: 20%;
+    padding: 2%;
+    margin: 30px;
+}
+
+
+.pictures::after {
+    clear: both;
+    /* display: table; */
+}
